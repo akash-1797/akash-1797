@@ -1,0 +1,30 @@
+n = int(input())
+n_1 = (n+1)//2
+n_2 = n_1 -1
+i =1
+while(i<=n_1):
+  space = 1
+  while(space<=i-1):
+    print(' ',end = ' ')
+    space = space+1
+  j = 1
+  while(j<=i):
+    print('*',end=' ')
+    j = j+1
+  print()
+  i = i+1
+
+k = n_2
+while(k>=1):
+  space = 1
+  while(space<= k-1):
+    print(' ',end=' ')
+    space = space+1
+  z = k
+  while(z>=1):
+    print('*',end=' ')
+    z=z-1
+  print()
+  k = k-1
+  
+    
